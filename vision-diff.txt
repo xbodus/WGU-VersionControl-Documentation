@@ -1,0 +1,107 @@
+diff --git a/vision.html b/vision.html
+index 9172e69..9394c33 100644
+--- a/vision.html
++++ b/vision.html
+@@ -2,7 +2,7 @@
+ <html lang="en">
+ 
+ <head>
+-    <title>WGU - Test</title>
++    <title>Western Tech Hub - Mission and Vision</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+@@ -12,54 +12,55 @@
+ 
+ <body>
+ 
+-    <div class="w3-top top-navbar">
++    <header class="w3-top top-navbar">
+         <div class="w3-bar w3-white w3-card">
+-            <h2> Western Tech Hub</h2>
++            <a class="w3-bar-item" href="index.html">Western Tech Hub</a>
+         </div>
+ 
+-        <div class="w3-bar w3-black w3-card" id="myTopnav">
++        <nav class="w3-bar w3-black w3-card" id="myTopnav" aria-label="Main">
+             <a class="w3-bar-item w3-button w3-padding-large" id="home-link" href="index.html">Home</a>
+-            <a id="about-link" href="about.html" class="w3-bar-item w3-button w3-padding-large ">About</a>
+-            <a id="missionvision-link" href="vision.html" class="w3-bar-item w3-button w3-padding-large ">Mission and
+-                Vision</a>
++            <a id="about-link" href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
++            <a id="missionvision-link" href="vision.html" class="w3-bar-item w3-button w3-padding-large" aria-current="page">Mission and Vision</a>
+             <a class="w3-bar-item w3-button w3-padding-large " id="services-link" href="services.html">Services</a>
+             <a class="w3-bar-item w3-button w3-padding-large " id="customers-link" href="customers.html">Customers</a>
+             <a class="w3-bar-item w3-button w3-padding-large " id="team-link" href="team.html">Team</a>
+             <a class="w3-bar-item w3-button w3-padding-large " id="contact-link" href="contact.html">Contact</a>
+-        </div>
+-    </div>
++        </nav>
++    </header>
+ 	
+-        <div id="missionvision">
+-            <h1>Mission and Vision</h1>
+-            <div>
+-                <p>Our Mission is to do what we need to do to get things done. Our vision is pretty good.</p>
++    <main id="missionvision">
++        <h1>Mission and Vision</h1>
++        <p>Our Mission is to do what we need to do to get things done. Our vision is pretty good.</p>
+ 
+-                <div class=" w3-row">
+-                    <div class="w3-col m6">
+-                        <img src="images/mission.png" height="90px" width="90px" />
+-                        <h2>Mission</h2>
+-                        <p>We strive to make things better for you and everyone else. </p>
+-                    </div>
+-                    <div class="w3-col m6">
+-                        <img src="images/vision.png" height="90px" width="90px" />
+-                        <h2>Vision</h2>
+-                        <p>We see the way we want things to be and talk about it. </p>
+-                    </div>
+-                </div>
+-            </div>
++        <div class="w3-row">
++            <section class="w3-col m6">
++                <img src="images/mission.png" alt="Bullseye Icon" height="90" width="90" />
++                <h2>Mission</h2>
++                <p>We strive to make things better for you and everyone else.</p>
++            </section>
++            <section class="w3-col m6">
++                <img src="images/vision.png" alt="Vision Icon" height="90" width="90" />
++                <h2>Vision</h2>
++                <p>We see the way we want things to be and talk about it.</p>
++            </section>
+         </div>
+-<div class="footer">
+-        <a class="w3-button" href="index.html">Home</a> |
+-        <a class="w3-button" href="about.html">About</a> |
+-        <a class="w3-button" href="vision.html">Mission and
+-            Vision</a> |
+-        <a class="w3-button" href="services.html">Services</a> |
+-        <a class="w3-button" href="customers.html">Customers</a> |
+-        <a class="w3-button" href="team.html">Team</a> |
+-        <a class="w3-button " href="contact.html">Contact</a>
++    </main>
+ 
+-        <hr /> 
+-    </div>
++    <footer class="footer">
++        <nav aria-label="Footer">
++            <a class="w3-button w3-footer-button" href="index.html">Home</a>
++            <a class="w3-button w3-footer-button" href="about.html">About</a>
++            <a class="w3-button w3-footer-button" href="vision.html">Mission and Vision</a>
++            <a class="w3-button w3-footer-button" href="services.html">Services</a>
++            <a class="w3-button w3-footer-button" href="customers.html">Customers</a>
++            <a class="w3-button w3-footer-button" href="team.html">Team</a>
++            <a class="w3-button w3-footer-button" href="contact.html">Contact</a>
++        </nav>
+ 
+-    <script src="js/script.js"></script>	        
++            <hr /> 
++            <p class="w3-footer-item">Source :</p>
++            <a class="w3-button w3-footer-button w3-white read-more-button" target="_blank" href="https://unsplash.com/images/stock/royalty-free">Unsplash (Images)</a>
++            <a class="w3-button w3-footer-button w3-white read-more-button" target="_blank" href="https://www.flaticon.com/">Flaticon (Icons)</a>
++            <a class="w3-button w3-footer-button w3-white read-more-button" target="_blank" href="https://www.w3schools.com/"> W3schools.com (CSS)</a>
++    </footer>
+ </body>
+\ No newline at end of file
